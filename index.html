@@ -1,0 +1,240 @@
+<!DOCTYPE html><html lang="en"><head>
+	<meta charset="UTF-8">
+	<title>IPL - Parallax</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="shortcut icon" href="images/shortcut_icon.png">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+   <!-- wrapper container starts -->
+   <div class="wrapper">
+      <!-- Dot Navigation  -->
+      <ul class="menu">
+         <li><a class="pagination current_page" onclick="navigation('home')" href="javascript:void(0);"></a></li>
+         <li><a class="pagination" onclick="navigation('teams')" href="javascript:void(0);"></a></li>
+         <li><a class="pagination" onclick="navigation('gallery')" href="javascript:void(0);"></a></li>
+         <li><a class="pagination" onclick="navigation('facts')" href="javascript:void(0);"></a></li>
+         <li><a class="pagination" onclick="navigation('winners')" href="javascript:void(0);"></a></li>
+         <li><a class="pagination" onclick="navigation('about')" href="javascript:void(0);"></a></li>
+      </ul>
+      <!-- home page starts -->
+      <section id="home" class="page">
+         <h1>IPL Parallax Version</h1>
+         <div class="hometxt">	
+         	<p>Strictly Playful</p>
+         	<p>Scroll down for the complete tour.</p>
+         </div>
+         <a class="scrollarrow" href="javascript:void(0);"></a>
+         <figure class="logos">
+            <img src="images/srh.png" alt="Chennai Super Kings" title="">
+            <img src="images/dd.jpg" alt="DD" title="">
+            <img src="images/kings.png" alt="Kings XI" title="">
+            <img src="images/csk.jpg" alt="CSK" title="">
+            <img src="images/rcb.png" alt="RCB" title="">
+            <img src="images/rr.png" alt="RR" title="">
+            <img src="images/kkr.png" alt="KKR" title="">
+            <img src="images/mi.png" alt="MI" title="">
+         </figure>
+      </section>
+      <!-- home page ends -->
+      <!-- teams page starts -->
+      <div class="clearfix"></div>
+      <section id="teams" class="page">
+      <div class="clearfix"></div>
+         <h2>Teams</h2>
+         <div class="topfour">
+            <div class="team">
+               <img src="images/cskcap_small.png" alt="CSK" title="">
+               <img class="hover" src="images/csk_logo.png" alt="CSK Logo" title="CSK">
+               <div class="description">
+                  <p>CSK:
+                     The Chennai Super Kings are a franchise cricket team based in Chennai. The team is being captained by Mahendra Singh Dhoni and coached by Stephen Fleming. The Super Kings have won the title twice in succession (2010 and 2011).They have been the runner-up team for 4 times.
+                  </p>
+               </div>
+            </div>
+            <div class="team">
+               <img src="images/kxicap_small.png" alt="Kings XI" title="">
+               <img class="hover" src="images/kxip_logo.png" alt="Kings XI Logo" title="Kings XI">
+               <div class="description">
+                  <p>Kings XI:
+                     The Kings XI Punjab are a franchise cricket team based in Ajitgarh, Punjab, that plays in the Indian Premier League. The team is jointly owned by Preity Zinta, Ness Wadia, Mohit Burman and Karan Paul.
+                     The team is captained by George Bailey.They have been the runner-up during the year 2014.
+                  </p>
+               </div>
+            </div>
+            <div class="team">
+               <img src="images/kkrcap_small.png" alt="KKR" title="">
+               <img class="hover" src="images/kkr_logo.png" alt="KKR Logo" title="KKR">
+               <div class="description">
+                  <p>KKR:
+                     The Kolkata Knight Riders are a cricket franchise representing Kolkata in the Indian Premier League. 
+                     The franchise is owned by Bollywood actor Shah Rukh Khan and Juhi Chawla.The team is been captained by Gautham Gambhir. They won the title twice(2012 & 2014).
+                  </p>
+               </div>
+            </div>
+            <div class="team">
+               <img src="images/srhcap_small.png" alt="SRH" title="">
+               <img class="hover" src="images/srh_logo.png" alt="SRH Logo" title="SRH">
+               <div class="description">
+                  <p>SRH:
+                     The SunRisers Hyderabad are a cricket franchise based in the city of Hyderabad that plays in the Indian Premier League.The team is owned by Kalanithi Maran of the Sun TV channel Network. Krish Srikkanth and VVS Laxman are the mentors of the team.They have won the title once in the year.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="bottomfour">
+            <div class="team">
+               <img src="images/rrcap_small.png" alt="RR" title="">
+               <img class="hover" src="images/rr_logo.png" alt="RR Logo" title="RR">
+               <div class="description">
+                  <p>RR:
+                     The Rajasthan Royals (often abbreviated as RR) are a cricket franchise representing the city of Jaipur in the Indian Premier League. The team is owned by Manoj Badale and is currently captained by Steve Smith. They won the winners title in the first season of IPL(2008).
+                  </p>
+               </div>
+            </div>
+            <div class="team">
+               <img src="images/rcbcap_small.png" alt="RCB" title="">
+               <img class="hover" src="images/rcb_logo.png" alt="RCB Logo" title="RCB">
+               <div class="description">
+                  <p>RCB:
+                     The Royal Challengers Bangalore are a franchise cricket team based in Bengaluru, Karnataka that plays in the Indian Premier League. The team is owned by Vijay Mallya and the team is been captained by virat kohli and coached by Daniel Vettori. They have been the runner-up during the year 2009 and 2011.
+                  </p>
+               </div>
+            </div>
+            <div class="team">
+               <img src="images/ddcap_small.png" alt="DD" title="">
+               <img class="hover" src="images/dd_logo.png" alt="DD Logo" title="DD">
+               <div class="description">
+                  <p>DD:
+                     The Delhi Daredevils  are a cricket franchise representing the city of Delhi in the IPL. The team's current captain is Jean-Paul Duminy while the coach is Gary Kirsten. The leading run-scorer of the side is Virender Sehwag while the leading wicket-taker is Irfan Pathan. 
+                  </p>
+               </div>
+            </div>
+            <div class="team">
+               <img src="images/micap_small.png" alt="MI" title="">
+               <img class="hover" src="images/mi_logo.png" alt="MI Logo" title="MI">
+               <div class="description">
+                  <p>MI:
+                     The Mumbai Indians are a franchise cricket team representing the city of Mumbai in the Indian Premier League.The Mumbai Indians are currently captained by Rohit Sharma, and coached by Ricky Ponting.They won the winners title twice(2013 and 2015) and are runner-up once in the year 2010.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- teams page ends -->
+      <!-- gallery page starts -->
+      <section id="gallery">
+         <h2>Gallery</h2>
+         <div class="galleryimgs">
+            <div class="imgrow">
+               <img src="images/image1.png" alt="" title="">
+               <img src="images/image2_big.jpg" alt="" title="">
+               <img src="images/image3.png" alt="" title="">
+               <img src="images/suresh_raina.png" alt="" title="">
+            </div>
+            <div class="imgrow">
+               <img src="images/image5.png" alt="" title="">
+               <img src="images/image7.png" alt="" title="">
+               <img src="images/ojha_bowled.jpg" alt="" title="">
+               <img src="images/image8.png" alt="" title="">
+            </div>
+            <div class="imgrow">
+               <img src="images/image9.png" alt="" title="">
+               <img src="images/image10.png" alt="" title="">
+               <img src="images/image11.png" alt="" title="">
+               <img src="images/image12.png" alt="" title="">
+            </div>
+         </div>
+         <div class="imgpopup">
+            <div>
+               <img id="enlarged" src="">
+               <span class="close">X</span>
+            </div>
+         </div>
+      </section>
+      <div class="clearfix"></div>
+      <!-- gallery page ends -->
+      <!-- facts page starts -->
+      <section id="facts" class="page">
+         <h2>Interesting facts</h2>
+         <div class="fact left">
+            <div class="factimgl"><img src="images/pic6.png" alt="Gilchrist" title=""></div> 
+            <p class="left_fact">Adam Gilchrist has bowled only one ball in his career and has taken a wicket on that delivery.</p></div>
+         <p></p>
+         <div class="fact right">
+            <div class="factimgr"><img src="images/dhoni.png" alt="Dhoni" title=""></div> 
+            <p class="right_fact">MS Dhoni is the only player to captain an IPL side in all eight seasons.</p>
+         </div>
+         <div class="fact left">
+            <div class="factimgl"><img src="images/pic8.png" alt="IPL FB Page" title=""> </div>
+            <p class="left_fact">The official facebook page of IPL occupies the 10th position among the most liked pages.</p> 
+         </div>
+         <div class="fact right">
+            <div class="factimgr"><img src="images/pic7.png" alt="RCB" title=""> </div> 
+            <p class="right_fact">Every year, Royal Challengers Bangalore promote "Go Green" Initiative by wearing green jersey for one home match.</p>
+         </div>
+      </section>
+      <!-- facts page ends -->
+      <!-- winners page starts -->
+      <section id="winners" class="page">
+         <div>
+            <figure class="left_logo">
+               <img src="images/csk.jpg" alt="Chennai Super Kings" title="CSK">
+               <img src="images/dd.jpg" alt="DD" title="DD">
+               <img src="images/kings.png" alt="KXI" title="KXI">
+               <img class="deccan" src="images/srh.png" alt="SRH" title="SRH">
+            </figure>
+            <figure id="winner_logo">
+               <img src="images/cup_small4.png" alt="Winner" title="">
+            </figure>
+            <figure id="trophy">
+               <img src="images/cup_small4.png" alt="Trophy" title="Trophy">
+            </figure>
+            <figure class="right_logo">
+               <img src="images/rcb.png" alt="RCB" title="RCB">
+               <img src="images/rr.png" alt="RR" title="RR">
+               <img src="images/kkr.png" alt="KKR" title="KKR">
+               <img src="images/mi.png" alt="MI" title="MI">
+            </figure>
+            <div class="year_btn">
+               <div>
+                  <button>2008</button>
+                  <button>2009</button>
+                  <button>2010</button>
+                  <button>2011</button>
+                  <button>2012</button>
+                  <button>2013</button>
+                  <button>2014</button>
+                  <button>2015</button>
+                  <h2>Champions</h2>
+               </div>
+            </div>
+            <div class="clearfix"></div>
+         </div>  
+      </section>
+      <!-- winners page ends -->
+      <!-- about page starts -->
+      <section id="about" class="page">
+         <h2>About me</h2>
+         <div class="members">
+            <div class="member">
+               <p class="name">Gunasekaran P</p>
+               <p class="designation">Frontend Developer</p>
+               <p class="mail">
+                  <span>guna.klu@gmail.com</span>
+               </p>
+               <div class="clearfix"></div>
+               <div class="sociallink">
+                  <a class="fb" target="_blank" href="http://www.facebook.com/gunasekaransp17"></a>
+                  <a class="twitter" target="_blank" href="http://twitter.com/guna_sp_"></a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- about page ends -->
+   </div>
+   <!-- wrapper container ends -->
+   <script type="text/javascript" src="js/script.js"></script>
+
+</body></html>
