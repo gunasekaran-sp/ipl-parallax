@@ -358,7 +358,7 @@ h1, h2{
     background-position-x: 57%;
     background-size: cover;
     height: 800px;
-    min-width:1000px;
+    min-width: 980px;
     overflow: hidden;
     color:#fff;
     font-family: Myriad Pro;
